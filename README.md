@@ -79,3 +79,8 @@ BEM-inspired CSS methodology
 Modular JavaScript architecture
 Accessibility-first approach
 
+<img width="1311" height="638" alt="Screenshot 2026-02-11 222341" src="https://github.com/user-attachments/assets/86e41c33-7012-4a0a-95f1-6ae7267cc54a" />
+<img width="1310" height="644" alt="Screenshot 2026-02-11 222312" src="https://github.com/user-attachments/assets/37253c5c-89aa-48f4-9156-3b1f4d83c242" />
+<img width="1306" height="654" alt="Screenshot 2026-02-11 222234" src="https://github.com/user-attachments/assets/563f05f9-230f-4fff-97f5-39d88e5fbc24" />
+
+
