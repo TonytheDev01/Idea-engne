@@ -20,7 +20,7 @@
 .comments:nth-child(3) { transition-delay: 0.3s; }
 
 /* TYPING EFFECT*/
-highlight {
+.highlight {
     position: relative;
     display: inline;
     min-width: 0;
