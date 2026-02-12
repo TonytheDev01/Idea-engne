@@ -20,18 +20,32 @@
 .comments:nth-child(3) { transition-delay: 0.3s; }
 
 /* TYPING EFFECT*/
-.highlight {
+highlight {
     position: relative;
-    display: inline-block;
-    min-width: 150px; /* Prevent layout shift */
+    display: inline;
+    min-width: 0;
 }
 
+/* Hide blinking cursor on mobile — keeps text clean */
 .highlight::after {
-    content: '';
-    position: absolute;
-    right: -5px;
-    animation: blink 0.7s infinite;
-    color: #4f39f6;
+    display: none;
+}
+
+/* TABLET & DESKTOP: activate typing effect layout */
+@media (min-width: 48em) {
+    .highlight {
+        display: inline-block;
+        min-width: 15rem; /* Prevent layout shift during typing */
+    }
+
+    .highlight::after {
+        content: '|';
+        display: inline;
+        position: absolute;
+        right: -5px;
+        animation: blink 0.7s infinite;
+        color: #4f39f6;
+    }
 }
 
 @keyframes blink {
